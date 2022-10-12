@@ -4,7 +4,7 @@
       <p class="font-sans text-white error-text">404</p>
       <div class="w-screen text-white text-center font-sans text-xl">
         <span class="opacity-50">Page not Found</span>
-        <router-link class="border-b" to="/">&nbsp; Back to Movies Home</router-link>
+        <router-link class="border-b" to="/">&nbsp; Back Home</router-link>
       </div>
     </div>
   </div>
