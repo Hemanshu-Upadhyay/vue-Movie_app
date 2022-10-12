@@ -11,7 +11,8 @@ import "./assets/styles/index.css";
 Vue.config.productionTip = false;
 window.axios = require("axios").default;
 window.axios.defaults.headers.common["Authorization"] =
-  "Bearer " + process.env.example.VUE_APP_API_KEY;
+  "Bearer " +
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYjE4NTRiYjk3Mzk5NzkwNjBjZDMwM2IwODU4M2ZiMyIsInN1YiI6IjYzMmMwNWZmYTNiNWU2MDA5MWY2NTNlOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.cxEnDhQl8ui10yrxa2MZZko_8vUyRTuQmmiMVaqgbK0";
 
 Vue.use(VueProgressBar, {
   color: "rgb(143, 255, 199)",
